@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: suryaprasad9773/frontend-js:latest
+        image: suryaprasad9773/frontend-api:latest
         env:
         - name: VITE_REACT_APP_API_URL
           value: "http://quizapp.cloudcorehub.com/api/questions"
