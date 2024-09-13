@@ -1,5 +1,5 @@
 FROM node:18
-WORKDIR /app
+WORKDIR /quiz-app
 COPY package.json .
 RUN npm install
 COPY . .
